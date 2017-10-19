@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <rc.loveq.lib.RulerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:gravity="bottom"
+        app:orientation="horizontal"
+        app:smallIndicateColor="#3c3c3c"
+        app:smallIndicateWidth="2dp"
+        app:textSize="12sp"
+        app:endIndex="200"
+        />
+
+    <rc.loveq.lib.RulerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:endIndex="520"
+        app:gravity="top"
+        app:indicateColor="@android:color/holo_blue_bright"
+        app:indicateHeight="36dp"
+        app:indicateMarginText="20dp"
+        app:indicatePadding="12dp"
+        app:orientation="horizontal"
+        app:smallIndicateColor="@android:color/holo_red_light"
+        app:smallIndicateCount="10"
+        app:smallIndicateHeight="18dp"
+        app:smallIndicateWidth="2dp"
+        app:startIndex="5"
+        app:textSize="36sp"
+
+        />
+
+
+</LinearLayout>
