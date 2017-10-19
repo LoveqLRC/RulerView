@@ -49,4 +49,4 @@
     </declare-styleable>
 </resources>
 ```
-浏览图正在制作上传中
+预览图正在制作上传中
