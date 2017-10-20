@@ -109,6 +109,18 @@
     </table>
 
 
-
+## 一睹为快
 ![这里写图片描述](http://img.blog.csdn.net/20171019231451353?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzY1ODM3NA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 更多预览图正在制作上传中
+## 在计划中的功能
+- [ ] 适配wrap_content
+- [ ] 添加springBack功能
+- [ ] 添加代码更新状态
+- [ ] 添加状态接口回调
+
+## 已知问题
+因为RulerView第一进入就会把所有刻度绘制出来，多出来的部分只是屏幕未能显示出来，所以这样就会导致一个问题，如果绘制的内容很多(也就是说大范围)，很容易卡顿，因为是RulerView是继承自View,所以没有做回收机制，同时RulerView的初衷就应该是小范围选择，当然了这个问题，在做的时候，曾经想过办法解决，但还在想的阶段，1.使用Canvas clip 动态限制绘制区域 2.动态绘制屏幕区域(类似与常见的绘制动态滚动圆弧做法) 3.重做，用RecyclerView+自定义LayoutManager。
+
+## 最后
+
+
