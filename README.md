@@ -113,8 +113,7 @@
 
 
 ## 一睹为快
-![这里写图片描述](http://img.blog.csdn.net/20171019231451353?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzY1ODM3NA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
-更多预览图正在制作上传中
+![这里写图片描述](https://github.com/LoveqLRC/RulerView/blob/master/screenshots/screenshot.gif)
 ## 在计划中的功能
 - [ ] 适配wrap_content
 - [ ] 添加springBack功能
