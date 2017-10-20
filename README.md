@@ -1,6 +1,6 @@
 # RulerView
 ## 前言
-一开始只是打算简单写一个控件参加[HenCoder「仿写酷界面」活动——征稿](http://hencoder.com/activity-mock-1/)这活动的，后来写着写着，哎呀，这功能必须加，如果是这样，我可不能接受,于是改着改着，就有了这篇文章。
+写这个控件的初衷是[HenCoder「仿写酷界面」活动——征稿](http://hencoder.com/activity-mock-1/)。
 
 ## 目前可提供的配置的属性
 <table>
