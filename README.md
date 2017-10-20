@@ -3,25 +3,110 @@
 本来这库是写来参加[HenCoder「仿写酷界面」活动——征稿](http://hencoder.com/activity-mock-1/)这活动，后来写着写着，就想把它当作开源控件来写了。
 
 ## 目前可提供的配置的属性
-
-| Attrs        | Default          | 备注  |
-| ------------- |:-------------:| -----:|
-| indicateColor    | Color.BLACK | 大指示器颜色|
-| textColor    | Color.BLACK    |   字体颜色|
-| textSize | 12    |   字体大小 |
-| indicateMarginText | 16      |    指示器距离文字的距离 |
-| isDrawText | true      |    是否绘制文字|
-| startIndex | 0     |    开始下标 |
-| endIndex | 100     |    结束下标 |
-| indicateWidth | 12     |    大指示器的宽度 |
-| indicateHeight | 24     |    大指示器高度 |
-| smallIndicateWidth | 10     |    小指示器宽度 |
-| smallIndicateHeight | 10      |   小指示器高度 |
-| smallIndicateColor | Color.YELLOW     |    小指示器的颜色 |
-| smallIndicateCount | 4   |   大指示器之间间隔多少个小的 |
-| indicatePadding | 12    |    指示器之间的距离|
-| orientation | HORIZONTAL     |    尺子的方向 |
-| gravity | BOTTOM     | 文字位置 |
+<table>
+        <tr>
+            <th>name</th>
+            <th>format</th>
+            <th>default</th>
+            <th>备注</th>
+        </tr>
+        <tr>
+            <th>indicateColor</th>
+            <th>color|reference</th>
+            <th>Color.BLACK</th>
+            <th>指示器颜色</th>
+        </tr>
+        <tr>
+            <th>indicateWidth</th>
+            <th>dimension|reference</th>
+            <th>12dp</th>
+            <th>指示器的宽度</th>
+        </tr>
+        <tr>
+             <th>indicateHeight</th>
+            <th>dimension|reference</th>
+            <th>24dp</th>
+            <th>指示器高度</th>
+        </tr>
+    <tr>
+             <th>smallIndicateColor</th>
+            <th>color|reference</th>
+            <th>Color.BLACK</th>
+            <th>小指示器的颜色</th>
+        </tr>
+      <tr>
+             <th>smallIndicateWidth</th>
+            <th>dimension|reference</th>
+            <th>10dp</th>
+            <th>小指示器宽度</th>
+        </tr>
+      <tr>
+             <th>smallIndicateHeight</th>
+            <th>dimension|reference</th>
+            <th>10dp</th>
+            <th>小指示器高度</th>
+        </tr>
+      <tr>
+             <th>textColor</th>
+            <th>color|reference</th>
+            <th>Color.BLACK</th>
+            <th>字体颜色</th>
+        </tr>
+      <tr>
+             <th>textSize</th>
+            <th>dimension|reference</th>
+            <th>12dp</th>
+            <th>字体大小</th>
+        </tr>
+    <tr>
+             <th>indicateMarginText</th>
+            <th>dimension|reference</th>
+            <th>16dp</th>
+            <th>指示器距离文字的距离</th>
+        </tr>
+    <tr>
+             <th>isDrawText</th>
+            <th>boolean</th>
+            <th>true</th>
+            <th>是否绘制文字</th>
+        </tr>
+    <tr>
+             <th>startIndex</th>
+            <th>integer|reference</th>
+            <th>0</th>
+            <th>开始下标</th>
+        </tr>
+      <tr>
+             <th>endIndex</th>
+            <th>integer|reference</th>
+            <th>100</th>
+            <th>结束下标</th>
+        </tr>
+      <tr>
+             <th>smallIndicateCount</th>
+            <th>integer|reference</th>
+            <th>4</th>
+            <th>大指示器之间间隔多少个小的</th>
+        </tr>
+      <tr>
+             <th>indicatePadding</th>
+            <th>dimension|reference</th>
+            <th>12dp</th>
+            <th>指示器之间的距离</th>
+        </tr>
+      <tr>
+             <th>orientation</th>
+            <th>enum(horizontal||vertical)</th>
+            <th>horizontal</th>
+            <th>尺子的方向</th>
+        </tr>
+    <tr>
+             <th>gravity</th>
+            <th>enum(top||bottom)</th>
+            <th>bottom</th>
+            <th>文字位置相对尺子的位置</th>
+        </tr>
+    </table>
 
 
 
