@@ -1,42 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="RulerView">
-        <!--指示器颜色-->
+        <!--指示器颜色 default Color.BLACK-->
         <attr name="indicateColor" format="color|reference"/>
-        <!--字体颜色-->
+        <!--指示器的宽度 default 12dp-->
+        <attr name="indicateWidth" format="dimension|reference"/>
+        <!--指示器高度 default 24dp-->
+        <attr name="indicateHeight" format="dimension|reference"/>
+        <!--小指示器的颜色 default Color.BLACK-->
+        <attr name="smallIndicateColor" format="color|reference"/>
+        <!--小指示器宽度 default 10dp -->
+        <attr name="smallIndicateWidth" format="dimension|reference"/>
+        <!--小指示器高度 default 10dp-->
+        <attr name="smallIndicateHeight" format="dimension|reference"/>
+        <!--字体颜色  default Color.BLACK-->
         <attr name="textColor" format="color|reference"/>
         <!--字体大小-->
-        <attr name="textSize" format="dimension|reference"></attr>
-        <!--指示器距离文字的距离-->
+        <attr name="textSize" format="dimension|reference"/>
+        <!--指示器距离文字的距离 default 16dp-->
         <attr name="indicateMarginText" format="dimension|reference"/>
+        <!--是否绘制文字 default true-->
         <attr name="isDrawText" format="boolean"/>
-        <!--开始下标-->
+        <!--开始下标 default 0-->
         <attr name="startIndex" format="integer|reference"/>
-        <!--结束下标-->
+        <!--结束下标  default 100-->
         <attr name="endIndex" format="integer|reference"/>
-        <!--指示器的宽度-->
-        <attr name="indicateWidth" format="dimension|reference"/>
-        <!--指示器高度-->
-        <attr name="indicateHeight" format="dimension|reference"/>
-        <!--小指示器宽度-->
-        <attr name="smallIndicateWidth" format="dimension|reference"/>
-        <!--小指示器高度度-->
-        <attr name="smallIndicateHeight" format="dimension|reference"/>
-        <!--小指示器的颜色-->
-        <attr name="smallIndicateColor" format="color|reference"/>
-        <!--大指示器之间间隔多少个小的-->
+
+        <!--大指示器之间间隔多少个小的 default 4-->
         <attr name="smallIndicateCount" format="integer|reference"/>
-        <!--指示器之间的距离-->
+        <!--指示器之间的距离 default 12dp-->
         <attr name="indicatePadding" format="dimension|reference"/>
 
-
-        <!--尺子的方向-->
+        <!--尺子的方向   default  horizontal-->
         <attr name="orientation">
             <enum name="horizontal" value="0"/>
             <enum name="vertical" value="1"/>
         </attr>
 
-        <!--文字位置-->
+        <!--文字位置 default  bottom-->
         <attr name="gravity">
             <enum name="top" value="0"/>
             <enum name="bottom" value="1"/>
