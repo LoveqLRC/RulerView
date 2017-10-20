@@ -1,6 +1,6 @@
 # RulerView
 ## 前言
-本来这库是写来参加[HenCoder「仿写酷界面」活动——征稿](http://hencoder.com/activity-mock-1/)这活动，后来写着写着，把它当做开源控件来写了，力争提供更加多的属性可以配置，便于快速开发。
+本来这库是写来参加[HenCoder「仿写酷界面」活动——征稿](http://hencoder.com/activity-mock-1/)这活动，后来写着写着，就想把它当作开源控件来写了。
 
 ## 目前可提供的配置的属性
 
