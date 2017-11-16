@@ -1,7 +1,4 @@
 # RulerView
-## 前言
-写这个控件的初衷是[HenCoder「仿写酷界面」活动——征稿](http://hencoder.com/activity-mock-1/)。
-
 ## 目前可提供的配置的属性
 <table>
         <tr>
